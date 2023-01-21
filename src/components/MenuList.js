@@ -6,7 +6,7 @@ function MenuList({ foodItems }) {
   return (
     <div>
       {/*affiche un composant MenuItem pour chaque élément du tableau et transmets toutes les propriétés de l'objet en tant que props*/}
-      {foodItems.map((props, index) => (
+      {foodItems.map((props) => (
         <MenuItem
           itemName={props.itemName}
           description={props.description}
