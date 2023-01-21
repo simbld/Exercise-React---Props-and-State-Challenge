@@ -20,10 +20,16 @@ h1 {
   padding-left: 15px;
 }
 
-.leftContainer,
+.leftContainer {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
 .rightContainer {
   display: flex;
   align-items: center;
+  color: red;
 }
 
 .itemContainer {
@@ -34,17 +40,23 @@ h1 {
 }
 
 .isFavorite {
-  width: 40px;
-  height: 40px;
+  width: 10px;
+  height: 10px;
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/35/Emoji_u2665.svg');
   background-size: 100%;
   align-self: flex-start;
+  padding: 20px;
 }
 
 .notFavorite {
-  width: 40px;
-  height: 40px;
+  width: 10px;
+  height: 10px;
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4f/Ei-heart.svg');
   background-size: 100%;
   align-self: flex-start;
+  padding: 20px;
+}
+.like-count {
+  color: rgb(5, 4, 2);
+  margin-left: 40%;
 }
